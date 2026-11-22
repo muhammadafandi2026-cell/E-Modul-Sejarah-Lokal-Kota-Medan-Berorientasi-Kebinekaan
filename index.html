@@ -1,0 +1,54 @@
+<!doctype html>
+<html lang="id">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#101d35">
+  <title>Jejak Sejarah Medan | E-Modul 1863–1945</title>
+  <meta name="description" content="Website E-Modul Sejarah Lokal Kota Medan 1863–1945 berorientasi kebinekaan untuk siswa kelas XI Fase F.">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Playfair+Display:wght@600;700;800&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <div class="app-shell">
+    <aside class="sidebar" id="sidebar">
+      <a class="brand" href="#home" aria-label="Jejak Sejarah Medan - Beranda">
+        <span class="brand-mark">JM</span>
+        <span><b>JEJAK SEJARAH</b><small>MEDAN · 1863—1945</small></span>
+      </a>
+      <div class="side-label">NAVIGASI PEMBELAJARAN</div>
+      <nav id="mainNav" class="main-nav" aria-label="Navigasi utama"></nav>
+      <div class="sidebar-bottom">
+        <div class="progress-card">
+          <div class="progress-top"><span>Progres eksplorasi</span><b id="progressText">0%</b></div>
+          <div class="progress-track"><span id="progressBar"></span></div>
+          <small>Progres lokal pada perangkat ini</small>
+        </div>
+        <div class="side-foot">E-Modul Sejarah · Kelas XI Fase F</div>
+      </div>
+    </aside>
+
+    <main class="main-area">
+      <header class="topbar">
+        <button class="icon-btn mobile-menu" id="menuToggle" aria-label="Buka navigasi">☰</button>
+        <div class="breadcrumbs"><span>PEMBELAJARAN DIGITAL</span><i>/</i><b id="crumbCurrent">Beranda</b></div>
+        <div class="top-actions">
+          <span class="online-pill"><i></i> WEBSITE E-MODUL</span>
+          <button class="icon-btn" id="fontToggle" title="Perbesar teks" aria-label="Perbesar teks">A+</button>
+        </div>
+      </header>
+
+      <section id="pageContent" class="page-content" tabindex="-1"></section>
+
+      <footer class="footer">
+        <span>© 2026 · Jejak Sejarah Medan</span>
+        <span>Produk pengembangan E-Modul · SMAS Cerdas Murni</span>
+      </footer>
+    </main>
+  </div>
+  <div class="mobile-scrim" id="scrim"></div>
+  <script src="app.js"></script>
+</body>
+</html>
